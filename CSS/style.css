@@ -1,0 +1,13 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.laranja {
+    height: 137px;
+    background-color: #ff7a00;
+}
+.preto {
+    height: 149px;
+    background-color: black;
+}
