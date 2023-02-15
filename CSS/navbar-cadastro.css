@@ -29,3 +29,8 @@
   .texto_cadastro > h2 {
     color: #ff7a00;
   }
+
+  .texto_cadastro > p{
+    text-align: justify;
+    margin-right: 1000px;
+  }
