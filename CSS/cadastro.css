@@ -7,17 +7,29 @@
 }
 
 body {
-  margin-left: 100px;
+
+}
+
+nav div.laranja:first-child {
+  background-color: #ff7a00;
+  height: 150px;
+  position: relative;
+}
+nav div.preto:last-child {
+  background-color: black;
+  height: 17px;
+  position: relative;
 }
 
 .container {
   margin-left: 2px;
   display: flex;
-
+  margin-left: 100px;
 }
 
 .titulo {
   margin: 83px 343px 38px 0;
+  margin-left: 100px;
 }
 
 .titulo h1 {
@@ -33,9 +45,13 @@ body {
 }
 
 .text {
+  font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 29px;
+  text-align: justify;
+  color: #494949;
+  margin-right: 100px;
 }
 
 .botao {
@@ -61,6 +77,8 @@ body {
 
 .lado-direito {
   margin-left: 20px;
+  width: 895px;
+  height: 508px;
 }
 
 .lado-direito img {
