@@ -1,6 +1,7 @@
 * {
     padding: 0%;
     margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
   section div.laranja:first-child {
@@ -12,4 +13,24 @@
     background-color: black;
     height: 17px;
     position: relative;
+  }
+
+  .bold {
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+  }
+
+  .bold_laranja {
+    font-weight: bolder;
+    color: #ff7a00;
+  }
+
+  .texto_cadastro > h2 {
+    color: #ff7a00;
+  }
+
+  .texto_cadastro > p{
+    text-align: justify;
+    margin-right: 1000px;
   }
