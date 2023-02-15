@@ -1,0 +1,15 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+  section div.laranja:first-child {
+    background-color: #ff7a00;
+    height: 150px;
+    position: relative;
+  }
+  section div.preto:last-child {
+    background-color: black;
+    height: 17px;
+    position: relative;
+  }
