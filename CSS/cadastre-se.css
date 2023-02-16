@@ -6,9 +6,6 @@
   font-family: 'Inter', sans-serif;
 }
 
-body {
-
-}
 
 nav div.laranja:first-child {
   background-color: #ff7a00;
@@ -41,7 +38,7 @@ nav div.preto:last-child {
 }
 
 .lado-esquerdo {
-
+ width: 50vw;
 }
 
 .text {
@@ -75,9 +72,8 @@ nav div.preto:last-child {
 .continuar {
   display: flex;
   align-items: center;
-  margin: 33px 0 36px 0;
-  padding: 15px;
-  justify-content: space-between;
+  margin-top: 33px;
+  justify-content: center;
   width: 451px;
   height: 76px;
   background: #FF7A00;
@@ -116,4 +112,11 @@ nav div.preto:last-child {
 height: 505px;
 width: 795px;
 
+}
+
+.lado-baixo {
+  display: flex;
+  flex-direction: column  ;
+  align-items: center;
+  justify-content: center;
 }
