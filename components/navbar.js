@@ -52,6 +52,10 @@ class Header extends HTMLElement {
           align-itens: center;
         }
 
+        header nav img{
+          padding-right:10px; position:relative; bottom:3px;
+        }
+
       </style>
       <header>
         <nav>

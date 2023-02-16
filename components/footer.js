@@ -14,19 +14,37 @@ class Footer extends HTMLElement {
           font-family: 'Inter', sans-serif;
         }  
 
-
         footer {
-          display: flex;
-          justify-content: space-between;
+          display:flex;
           background-color: #ff7a00;
           height: 80px;
           width: 100%;
-          border-top: 5px solid #000;
+          justify-content: center;
+        }
+
+        ul{
+          width:60%;
+        }
+        ul li img{
+          margin-top:3px;
+          width: 15px;
+        }
+
+        li a{
+          text-decoration:none;
+          color:white;
+          font-weight:600;
+        }
+
+        li a:hover{
+          text-decoration: underline; 
         }
 
         .lista {
-          align-items: center;
-          list-style: disc;
+          display: flex;
+          justify-content: space-evenly;
+          padding: 30px;
+          list-style: none;
         }
 
         li {
@@ -36,9 +54,11 @@ class Footer extends HTMLElement {
       </style>
       <footer>
        <ul class="lista">
-       <li><a href="/">Politica do site e Marketplace</a></li>
-       <li><a href="/">Politicas de privacidade</a></li>
-       <li><a href="/">Exerça seus direitos de privacidade</a></li>
+        <li><a href="/">Politica do site e Marketplace</a></li>
+        <li><img src="../Images/Ellipse.svg"></img>
+        <li><a href="/">Politicas de privacidade</a></li>
+        <li><img src="../Images/Ellipse.svg"></img>
+        <li><a href="/">Exerça seus direitos de privacidade</a></li>
        </ul>
       </footer>
     `;

@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  overflow: hidden;
 }
 
 .container {
@@ -95,8 +96,7 @@
 }
 
 .lado-direito img {
-height: 505px;
-width: 795px;
+width: 731px;
 
 }
 
