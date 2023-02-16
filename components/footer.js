@@ -15,10 +15,9 @@ class Footer extends HTMLElement {
         }  
 
 
-        footer{
+        footer {
           display: flex;
           justify-content: space-between;
-          align-itens: center;
           background-color: #ff7a00;
           height: 80px;
           width: 100%;
@@ -26,15 +25,20 @@ class Footer extends HTMLElement {
         }
 
         .lista {
-          display: flex;
-          justify-content: space-between;
           align-items: center;
-          list-style: circle;
+          list-style: disc;
+        }
+
+        li {
+          // margin-left: 365px;
         }
 
       </style>
       <footer>
-       
+       <ul class="lista">
+       <li><a href="/">Politica do site e Marketplace</a></li>
+       <li><a href="/">Politicas de privacidade</a></li>
+       <li><a href="/">Exerça seus direitos de privacidade</a></li>
        </ul>
       </footer>
     `;
