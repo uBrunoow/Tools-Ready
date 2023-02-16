@@ -56,6 +56,13 @@ class Header extends HTMLElement {
           padding-right:10px; position:relative; bottom:3px;
         }
 
+        nav span a:hover {
+          text-decoration: underline;
+          color: #cccccc;
+        }
+
+        
+
       </style>
       <header>
         <nav>
