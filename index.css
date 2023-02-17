@@ -15,12 +15,13 @@ nav{
   background-color: #ff7a00;
   height: 120px;
   border-bottom: 11px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #divBusca{
   display: flex;
-  align-items: center;
-  justify-content: center;
   background-color:white;
   border-radius:43px;
   width: 886.58px;
@@ -35,11 +36,8 @@ nav{
   font-size:18px;
   border:none;
   height:32px;
-  width:260px;
-}
-
-.imagens {
-  width: 18px;
+  width:680px;
+  margin-left: 25px;
 }
 
 #favoritos {
@@ -58,7 +56,7 @@ nav{
 }
 
 #pesquisa {
-
+  width: 22px;
 }
 
 .imgConta {
@@ -123,7 +121,7 @@ label {
   position: relative;
   display: block;
   height: 22px;
-  width: 10px;
+  width: 35px;
 }
 
 label span {
