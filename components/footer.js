@@ -17,7 +17,7 @@ class Footer extends HTMLElement {
         footer {
           display:flex;
           background-color: #ff7a00;
-          height: 80px;
+          height: 70px;
           width: 100%;
           justify-content: center;
         }
@@ -43,21 +43,17 @@ class Footer extends HTMLElement {
         .lista {
           display: flex;
           justify-content: space-evenly;
-          padding: 30px;
+          padding: 25px;
           list-style: none;
-        }
-
-        li {
-          // margin-left: 365px;
         }
 
       </style>
       <footer>
        <ul class="lista">
         <li><a href="/">Politica do site e Marketplace</a></li>
-        <li><img src="../Images/Ellipse.svg"></img>
+        <li><img src="/Images/Ellipse.svg"></img>
         <li><a href="/">Politicas de privacidade</a></li>
-        <li><img src="../Images/Ellipse.svg"></img>
+        <li><img src="/Images/Ellipse.svg"></img>
         <li><a href="/">Exerça seus direitos de privacidade</a></li>
        </ul>
       </footer>
