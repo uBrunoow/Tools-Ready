@@ -1,0 +1,32 @@
+.anuncio-black-friday {
+    height: 500px;
+    background: radial-gradient(83.42% 1297.39% at 50.02% 35.45%, #FF7A00 0%, rgba(255, 122, 0, 0) 100%);
+}
+
+.natal-ready {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 200px;
+    background: #FF7A00;
+    border-radius: 9px 9px 0px 0px;
+    margin-left: 100px;
+}
+
+.natal-ready  > p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.linha-natal-ready {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1909px;
+    height: 70px;
+    background: #A45214;
+}
