@@ -17,7 +17,7 @@ class Footer extends HTMLElement {
         footer {
           display:flex;
           background-color: #ff7a00;
-          height: 70px;
+          height: 80px;
           width: 100%;
           justify-content: center;
         }

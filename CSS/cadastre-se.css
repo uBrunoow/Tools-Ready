@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .container {
@@ -14,7 +14,7 @@
 }
 
 .titulo {
-  margin: 50px 343px 28px 0;
+  margin: 60px 343px 34px 0;
   margin-left: 100px;
 }
 
