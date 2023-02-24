@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 
 #produtos {
     width: 423px;
@@ -60,6 +65,7 @@
 
 .preco-produto {
     margin-left: 16px;
+    margin-top: 25px;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
@@ -77,6 +83,12 @@
     line-height: 29px;
     color: #000000;
     }
+
+.stars {
+    margin-left: 16px;
+    margin-top: 3px;
+    margin-bottom: 25px;
+}
 
 /**/
 
