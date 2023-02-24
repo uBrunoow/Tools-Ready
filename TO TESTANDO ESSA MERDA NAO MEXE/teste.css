@@ -10,16 +10,14 @@
 /**/
 
 .botao-comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 70px;
     height: 70px;
     background: #FF3232;
-    border-radius: 0px 5px 0px 0px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 5px 0px 0px 0px;
     border: 0px;
-}
-
-.botao-comprar > img {
-    transform: scaleX(-1);
 }
 
 #comprar {
@@ -27,6 +25,30 @@
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+.botao-comprar:hover {
+    background: white;
+    width: 423px;
+    height: 70px;
+    outline: #FF3232 auto 100px
+}
+
+.botao-comprar > p {
+
+    color: #FF3232;
+    font-size: 24px;
+    font-weight: bold;
+    display: none;
+}
+
+.botao-comprar:hover > p {
+    display: block;
+}
+
+.botao-comprar:hover > .carrinho-vector {
+    display: none;
+}
+
 
 /**/
 
