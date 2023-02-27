@@ -1,3 +1,8 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
 .anuncio-black-friday {
     height: 500px;
     background: radial-gradient(83.42% 1297.39% at 50.02% 35.45%, #FF7A00 0%, rgba(255, 122, 0, 0) 100%);
@@ -32,20 +37,62 @@
 }
 
 #produtos {
+    width: 423px;
+    height: 524px;
+    background-image: url(./Images/degrade.svg);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 40.1%);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.082);
+    margin: 100px;
+}
+
+/**/
+
+.botao-comprar {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 70px;
+    height: 70px;
+    background: #FF3232;
+    border-radius: 5px 0px 0px 0px;
+    border: 0px;
 }
 
-.primeiro-produto {
+#comprar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.botao-comprar:hover {
+    background: white;
     width: 423px;
-    height: 524px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background: url(../Images/degrade.svg);
-    filter: drop-shadow(0px 4px 21px rgba(0, 0, 0, 0.25));
-
+    height: 70px;
+    outline: #FF3232 auto 100px
 }
+
+.botao-comprar > p {
+
+    color: #FF3232;
+    font-size: 24px;
+    font-weight: bold;
+    display: none;
+}
+
+.botao-comprar:hover > p {
+    display: block;
+}
+
+.botao-comprar:hover > .carrinho-vector {
+    display: none;
+}
+
+#comprar:hover > a {
+    text-decoration: none;
+}
+
+
+/**/
 
 #serrote-img {
     display: flex;
@@ -55,7 +102,8 @@
 
 .preco-produto {
     margin-left: 16px;
-    font-family: 'Inter';
+    margin-top: 25px;
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -65,7 +113,7 @@
 
 .nome-produto {
     margin-left: 16px;
-    font-family: 'Inter';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -73,25 +121,13 @@
     color: #000000;
     }
 
-.botao-comprar {
-    width: 70px;
-    height: 70px;
-    background: #FF3232;
-    border-radius: 0px 5px 0px 0px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    border: 0px;
+.stars {
+    margin-left: 16px;
+    margin-top: 3px;
+    margin-bottom: 25px;
 }
 
-.botao-comprar > img {
-    transform: scaleX(-1);
-}
-
-#comprar {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-top: 100px;
-}
+/**/
 
 .promo {
     display: flex;
@@ -102,9 +138,11 @@
     background: #9B2324;
     border-radius: 0px 17px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
+
 }
 
 #idpromo {
+    padding: 10px;
     display: flex;
     justify-content: flex-end;
     align-items: center;    

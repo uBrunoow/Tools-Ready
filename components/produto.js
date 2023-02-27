@@ -7,9 +7,13 @@ class Footer extends HTMLElement {
     this.innerHTML = `
       <style>
 
+
+
       </style>
+
+
     `;
   }
 }
 
-customElements.define("footer-template", Footer);
+customElements.define("produto-template", Footer);
