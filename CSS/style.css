@@ -28,13 +28,24 @@
 }
 
 .linha-natal-ready {
+    color: white;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    width: 1909px;
     height: 70px;
     background: #A45214;
 }
+
+.time  {
+    margin: 0px 60px 0px 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
 
 #produtos {
     width: 423px;
@@ -42,7 +53,7 @@
     background-image: url(./Images/degrade.svg);
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 40.1%);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.082);
-    margin: 100px;
+    margin: 40px;
 }
 
 /**/
@@ -102,7 +113,6 @@
 
 .preco-produto {
     margin-left: 16px;
-    margin-top: 25px;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
@@ -113,13 +123,21 @@
 
 .nome-produto {
     margin-left: 16px;
+    margin-right: 16px;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: #000000;
-    }
+}
+
+.desconto {
+    margin-top: 10px;
+    text-decoration: line-through;
+    margin-left: 16px;
+    color: #979797;
+}
 
 .stars {
     margin-left: 16px;
@@ -146,4 +164,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;    
+}
+
+#p1 {
+    display: flex;
 }
