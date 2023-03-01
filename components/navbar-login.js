@@ -72,10 +72,10 @@ class Header extends HTMLElement {
          <img src="/Images/USER.png" alt="">
          </div>
          <span>
-         <a href="/pages/login.html"> Entre </a>
+         <a href="/pages/login e cadastro/login.html"> Entre </a>
          com a sua conta <br/>
           Novo na ToolsReady?
-           <a href="/pages/cadastre-se.html"> Cadastre-se </a>
+           <a href="/pages/login e cadastro/cadastre-se.html"> Cadastre-se </a>
            </span>
          </div>
         </nav>
