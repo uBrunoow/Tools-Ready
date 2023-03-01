@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/CSS/pessoafisica.css">
   <script src="/components/navbar-login.js"  type="text/javascript" defer></script>
   <script src="/components/footer.js"  type="text/javascript" defer></script>
+  <script src="/JS/pessoafisica.js" type="text/javascript" defer></script>
   <title>Cadastro | Pessoal</title>
 </head>
 <body>
@@ -39,8 +40,24 @@
         <input type="email" placeholder="Email*" name="email" value="" id="email">
       </div>
       <div class="frth-line">
-        <input type="password" placeholder="Digite sua senha*" name="senha" value="">
-        <input type="password" placeholder="Confirme sua senha*" name="confirmar-senha" value="">
+
+
+        <section class="pinArea">
+          <input type="password" placeholder="Digite sua senha*" name="senha" value="" id="password">
+          
+          <div id="icon" onclick="showHide()"> 
+            <img src="../Images/mostrar senha.svg" alt="" class="show-pass">
+          </div>
+
+          <input type="password" placeholder="Confirme sua senha*" name="confirmar-senha" value="" id="password">
+
+          <div id="icon" onclick="showHide()">
+            <img src="../Images/mostrar senha.svg" alt="" class="show-pass">
+          </div>
+        </section>
+
+        
+
       </div>
       <label for="">(Todos os campos são obrigatórios)</label>
 
