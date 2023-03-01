@@ -82,8 +82,8 @@
     padding: 0.6875rem 1rem;
     width: 500px;
     height: 40px;
-    border: 1px solid #000000;
     margin: 5px;
+    border: 0.5px  solid black;
     border-radius: 8px;
   }
 
@@ -93,5 +93,5 @@
   }
 
   label {
-    
+    display: none;
   }
