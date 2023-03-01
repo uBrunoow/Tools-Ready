@@ -95,3 +95,14 @@
   label {
     display: none;
   }
+
+  #icon > img{
+    width: 30px; 
+    margin-left: -70px;
+    cursor: pointer;
+  }
+
+  .pinArea {
+    display: flex;
+    align-items: center;
+  }
