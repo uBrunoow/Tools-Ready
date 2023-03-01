@@ -17,6 +17,7 @@
     background: #FF7A00;
     border-radius: 9px 9px 0px 0px;
     margin-left: 100px;
+    transform: translateY(-80px);
 }
 
 .natal-ready  > p {
