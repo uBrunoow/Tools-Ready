@@ -8,6 +8,7 @@
   <script src="/components/navbar-login.js"  type="text/javascript" defer></script>
   <script src="/components/footer.js"  type="text/javascript" defer></script>
   <script src="/JS/pessoafisica.js" type="text/javascript" defer></script>
+  <script src="../JS/hover.js" type="text/javascript" defer></script>
   <title>Cadastro | Pessoal</title>
 </head>
 <body>
@@ -20,63 +21,67 @@
   </div>
 
   <div class="container">
-    <div id="fisica"></div>
-
-    <form action="" class="info-pessoa-fisica">
-      <div class="frst-line">
-        <label>Bruno Werner</label>
-        <input type="text" placeholder="Nome Completo*" name="nome" value="">  
-        <label>___.___.___-__</label>
-        <input type="text" placeholder="CPF*" name="cpf" value="">
+      <div id="fisica"></div>
+      <div id="lado-esquerdo">
+        <img src="../Images/imagem-pessoa-fisica.svg" alt="" class="imagem-pessoa-fisica">
+        <div class="sobre-nos">
+          <a href="">
+            <p>Sobre a empresa</p> 
+          </a>
+        </div>
       </div>
-      <div class="scnd-line">
-        <label>__/__/____</label>
-        <input type="text" placeholder="Data de nascimento*" name="nasc" value="">
-        <label>(__)9____-____</label>
-        <input type="tel" placeholder="Telefone celular*" name="tel" value="">
-      </div>
-      <div class="thrd-line">
-        <label>coloqueseuemail@gmail.com</label>
-        <input type="email" placeholder="Email*" name="email" value="" id="email">
-      </div>
-      <div class="frth-line">
+      <form action="" class="info-pessoa-fisica">
+        <div class="frst-line">
+          <label>Bruno Werner</label>
+          <input type="text" placeholder="Nome Completo*" name="nome" value="">  
+          <label>___.___.___-__</label>
+          <input type="text" placeholder="CPF*" name="cpf" value="">
+        </div>
+        <div class="scnd-line">
+          <label>__/__/____</label>
+          <input type="text" placeholder="Data de nascimento*" name="nasc" value="">
+          <label>(__)9____-____</label>
+          <input type="tel" placeholder="Telefone celular*" name="tel" value="">
+        </div>
+        <div class="thrd-line">
+          <label>coloqueseuemail@gmail.com</label>
+          <input type="email" placeholder="Email*" name="email" value="" id="email">
+        </div>
+        <div class="frth-line">
 
 
-        <section class="pinArea">
-          <input type="password" placeholder="Digite sua senha*" name="senha" value="" id="password">
+          <section class="pinArea">
+            <input type="password" placeholder="Digite sua senha*" name="senha" value="" id="password">
+            <!-- <div id="icon" onclick="showHide()"> 
+              <img src="../Images/mostrar senha.svg" alt="" class="show-pass">
+            </div> -->
+            <input type="password" placeholder="Confirme sua senha*" name="confirmar-senha" value="" id="password">
+            <!-- <div id="icon" onclick="showHide()">
+              <img src="../Images/mostrar senha.svg" alt="" class="show-pass">
+            </div> -->
+          </section>
+
           
-          <div id="icon" onclick="showHide()"> 
-            <img src="../Images/mostrar senha.svg" alt="" class="show-pass">
-          </div>
 
-          <input type="password" placeholder="Confirme sua senha*" name="confirmar-senha" value="" id="password">
-
-          <div id="icon" onclick="showHide()">
-            <img src="../Images/mostrar senha.svg" alt="" class="show-pass">
-          </div>
-        </section>
-
-        
-
-      </div>
-      <label for="">(Todos os campos são obrigatórios)</label>
+        </div>
+        <label for="">(Todos os campos são obrigatórios)</label>
 
 
-    </form>
+      </form>
 
 
   </div>
-  <div class="lado-baixo">
-    <a href="#">
-      <button class="continuar" >
-        CONTINUAR
-      </button>
-    </a>
-    <span style="margin: 25px">
-      Já possui conta? 
-      <a href="./login.html" class="login">ENTRAR</a>
-    </span>
-  </div>
+    <div class="lado-baixo">
+      <a href="#">
+        <button class="continuar" >
+          CONTINUAR
+        </button>
+      </a>
+      <span style="margin: 25px">
+        Já possui conta? 
+        <a href="./login.html" class="login">ENTRAR</a>
+      </span>
+    </div>
 </div>
 </body>
 </html>
