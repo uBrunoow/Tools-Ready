@@ -12,76 +12,110 @@
   <title>Cadastro | Pessoal</title>
 </head>
 <body>
-  <navbar-1></navbar-1>
+  <navbar-1></navbar-1> <!--NAV BAR-->
   
+
+  <!--TITULO -->
   <div>
     <div class="titulo">
     <h1>CRIAR CONTA<span class="subtitulo">PESSOA FÍSICA</span></h1>
     <hr>
   </div>
 
-  <div class="container">
-      <div id="fisica"></div>
-      <div id="lado-esquerdo">
-        <img src="../Images/imagem-pessoa-fisica.svg" alt="" class="imagem-pessoa-fisica">
-        <div class="sobre-nos">
-          <a href="">
-            <p>Sobre a empresa</p> 
-          </a>
-        </div>
-      </div>
-      <form action="" class="info-pessoa-fisica">
-        <div class="frst-line">
-          <label>Bruno Werner</label>
-          <input type="text" placeholder="Nome Completo*" name="nome" value="">  
-          <label>___.___.___-__</label>
-          <input type="text" placeholder="CPF*" name="cpf" value="">
-        </div>
-        <div class="scnd-line">
-          <label>__/__/____</label>
-          <input type="text" placeholder="Data de nascimento*" name="nasc" value="">
-          <label>(__)9____-____</label>
-          <input type="tel" placeholder="Telefone celular*" name="tel" value="">
-        </div>
-        <div class="thrd-line">
-          <label>coloqueseuemail@gmail.com</label>
-          <input type="email" placeholder="Email*" name="email" value="" id="email">
-        </div>
-        <div class="frth-line">
+  <div class="fisica">
+    <img src="../Images/imagem-pessoa-fisica.svg" alt="">
+  </div>
+<div class="container">
+  <!--IMAGEM PESSOA FISICA-->
+
+  <!--INPUTS-->
+  <div class="wrapper">
+    <div class="form-box login">
+        <form action="login.php">
 
 
-          <section class="pinArea">
-            <input type="password" placeholder="Digite sua senha*" name="senha" value="" id="password">
-            <!-- <div id="icon" onclick="showHide()"> 
-              <img src="../Images/mostrar senha.svg" alt="" class="show-pass">
-            </div> -->
-            <input type="password" placeholder="Confirme sua senha*" name="confirmar-senha" value="" id="password">
-            <!-- <div id="icon" onclick="showHide()">
-              <img src="../Images/mostrar senha.svg" alt="" class="show-pass">
-            </div> -->
-          </section>
-
+          <div class="lines">
+            <div class="nome-completo">
+              <!--DIV DO INPUT NOME COMPLETO-->
+                <div class="input-box">
+                  <span class="icon"></span>
+                  <input type="text" required>
+                  <label>Nome Completo</label>
+                </div>
+            </div>
+            <div class="cpf">
+              <!--DIV DO INPUT CPF-->
+                <div class="input-box">
+                  <span class="icon"></span>
+                  <input type="text" required>
+                  <label>CPF</label>
+                </div>
+            </div>
+          </div>
+          <div class="lines">
           
+          <div class="data-de-nasc">
+            <!--DIV DO INPUT DATA NASC-->
+              <div class="input-box">
+                <span class="icon"></span>
+                <input type="text" required>
+                <label>Data de nascimento</label>
+              </div>
+          </div>
+          <div class="telefone">
+            <!--DIV DO INPUT TELEFONE-->
+              <div class="input-box">
+                <span class="icon"></span>
+                <input type="text" required>
+                <label>Telefone</label>
+              </div>
+          </div>
+          </div>
+          <div class="lines">
+          <div class="email">
+            <!--DIV DO INPUT EMAIL-->
+              <div class="input-box">
+                  <span class="icon"></span>
+                  <input type="email" required>
+                  <label>Email</label>
+              </div>
+          </div>
+          </div>
+          <div class="lines">
+            <div class="password">
+              <!--DIV DO INPUT SENHA-->
+              <div class="input-box">
+                  <span class="icon"></span>
+                  <input type="password" required>
+                  <label>Senha</label>
+              </div>
+            </div>
 
-        </div>
-        <label for="">(Todos os campos são obrigatórios)</label>
-
-
-      </form>
-
+            <div class="confirm-password">
+              <!--DIV DO INPUT CONFIRMAR SENHA-->
+                <div class="input-box">
+                  <span class="icon"></span>
+                  <input type="password" required>
+                  <label>Confirmar Senha</label>
+              </div>
+            </div>
+          </div>
+          <div class="continuar">
+            <button type="submit" class="btn">
+                <a href="#">CONTINUAR</a>
+            </button>
+              <span class="entrar">
+                Já possui conta?
+                <a href="./login.html" class="login">ENTRAR</a>
+              </span>
+          </div>
+        </form>
+    </div>
+  </div>
 
   </div>
-    <div class="lado-baixo">
-      <a href="#">
-        <button class="continuar" >
-          CONTINUAR
-        </button>
-      </a>
-      <span style="margin: 25px">
-        Já possui conta? 
-        <a href="./login.html" class="login">ENTRAR</a>
-      </span>
-    </div>
-</div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
