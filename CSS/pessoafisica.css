@@ -142,7 +142,7 @@
     cursor: pointer;
   }
 
-  .pinArea {
-    display: flex;
-    align-items: center;
+  .frst-line input:focus~label,
+  .frst-line input:valid~label {
+    top: -5px;
   }
