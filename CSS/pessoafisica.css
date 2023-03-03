@@ -114,6 +114,10 @@
   padding: 0 35px 0 5px;
 }
 
+.continuar {
+  transform: translateX(350px);
+}
+
 .continuar  span a {
   color: #FF7A00;
   text-decoration: none;
@@ -134,4 +138,6 @@
   color: #fff;
   background: #FF7A00;
   border: none;
+  align-items: center;
+  justify-content: center;
 }
