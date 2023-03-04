@@ -68,10 +68,25 @@
 .confirm-password {
 
 }
-
 .email {
   width: 100%;
 }
+
+.input-box .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  line-height: 57px;
+}
+
+.input-box #icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  line-height: 57px;
+  cursor: pointer;
+}
+
 .wrapper .form-box {
   width: 100%;
   padding: 40px;
@@ -109,7 +124,7 @@
   border: none;
   outline: none;
   font-size: .9em;
-  color: #B1B1B1;
+  color: #3a3a3a;
   font-weight: 600;
   padding: 0 35px 0 5px;
 }

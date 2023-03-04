@@ -1,5 +1,5 @@
 const password = document.getElementById('password');
-const icon = document.getElementById('icon');
+const icon = document.getElementsByName('icon');
 
 function showHide() {
     if(password.type === 'password'){
