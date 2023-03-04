@@ -142,6 +142,7 @@
 
 .entrar {
   margin-left: 60px;
+  transition: 1s;
 }
 
 .btn {
@@ -167,4 +168,10 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
+
+}
+
+.entrar .login:hover {
+  text-decoration: underline;
+  font-weight: 700;
 }
