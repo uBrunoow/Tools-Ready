@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .anuncio-black-friday {
@@ -46,20 +47,123 @@
     line-height: 24px;
 }
 
-
-
-#produtos {
-    width: 423px;
-    height: 524px;
-    background-image: url(./Images/degrade.svg);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 40.1%);
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.082);
-    margin: 40px;
+.produtos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(100px);
 }
 
-/**/
+.primeiro-produto {
+    width: 423px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 00px 5px 20px rgba(0, 0, 0, 0.171);
+    margin-right: 50px;
+}
 
-.botao-comprar {
+.segundo-produto {
+    width: 423px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 00px 5px 20px rgba(0, 0, 0, 0.171);
+    margin-right: 50px;
+}
+
+.terceiro-produto {
+    width: 423px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 00px 5px 20px rgba(0, 0, 0, 0.171);
+    margin-right: 50px;
+}
+
+.quarto-produto {
+    width: 423px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 00px 5px 20px rgba(0, 0, 0, 0.171);
+}
+    
+
+.promo {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px 10px 0px 0px;
+    transition: .5s;
+}
+
+.promo div {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background: rgb(155, 35, 36);
+    border-radius: 0px 17px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+.img-gods.expand {
+    display: none;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.informacoes {
+    margin: 15px 0px 0px 30px;
+}
+
+.informacoes h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    color: #DB4437;
+    margin-top: 30px;
+}
+
+.informacoes h3 {
+    position: absolute;
+    top: 305px;
+    color: rgb(151, 151, 151);
+    text-decoration: line-through;
+    font-weight: 100;
+}
+
+.informacoes p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    height: 10px;
+    padding-right: 10px;
+}
+
+.informacoes div{
+    margin-top: 5px;
+}
+
+.stars {
+    margin-top: 35px;
+}
+
+.comprar {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.comprar button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,105 +172,14 @@
     background: #FF3232;
     border-radius: 5px 0px 0px 0px;
     border: 0px;
+    transition: .7s;
 }
 
-#comprar {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+.comprar img {
+    transition: .7s;
 }
 
-.botao-comprar:hover {
-    background: white;
-    width: 423px;
-    height: 70px;
-    outline: #FF3232 auto 100px
-}
-
-.botao-comprar > p {
-
-    color: #FF3232;
-    font-size: 24px;
-    font-weight: bold;
+.comprar a {
     display: none;
-}
-
-.botao-comprar:hover > p {
-    display: block;
-}
-
-.botao-comprar:hover > .carrinho-vector {
-    display: none;
-}
-
-#comprar:hover > a {
-    text-decoration: none;
-}
-
-
-/**/
-
-#serrote-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.preco-produto {
-    margin-left: 16px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    color: #DB4437;
-}
-
-.nome-produto {
-    margin-left: 16px;
-    margin-right: 16px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-}
-
-.desconto {
-    margin-top: 10px;
-    text-decoration: line-through;
-    margin-left: 16px;
-    color: #979797;
-}
-
-.stars {
-    margin-left: 16px;
-    margin-top: 3px;
-    margin-bottom: 25px;
-}
-
-/**/
-
-.promo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70px;
-    height: 70px;
-    background: #9B2324;
-    border-radius: 0px 17px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-
-}
-
-#idpromo {
-    padding: 10px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;    
-}
-
-#p1 {
-    display: flex;
+    transition: .1s;
 }

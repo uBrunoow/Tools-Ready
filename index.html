@@ -6,10 +6,16 @@
     <link rel="stylesheet" href="/components/navbar-logado/styles.module.css">
     <script src="/components/navbar-logado/navbar-logado.js"  type="text/javascript" defer></script>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/primeiro_produto.css">
+    <link rel="stylesheet" href="./CSS/segundo_produto.css">
+    <link rel="stylesheet" href="./CSS/terceiro_produto.css">
+    <link rel="stylesheet" href="./CSS/quarto_produto.css">
+    <script src="./JS/favoritos.js"></script>
     <title>ToolsReady! |  Maior E-commerce de ferramentas no Brasil</title>
 </head>
 <body>
     <navbar-2></navbar-2>
+
     <section>
         <div class="anuncio-black-friday"></div>
         <div class="linha-natal-ready">Termina em: <span class="time">24D 24:24:24</span></div>
@@ -18,108 +24,118 @@
         </div>
     </section>
 
-    <section id="p1">
-
-        <!--PRODUTO 1-->
-
-        <div id="produtos">
-            <div id="idpromo">
-                <div class="promo">
-                    <img src="../Images/promo-natal.svg" alt="">
+    <section>
+        <div class="container">
+            <div class="produtos">
+                <div class="primeiro-produto">
+                    <div class="promo">
+                        <div><img src="./Images/promo-natal.svg" alt=""></div>
+                        <button class="favoritos">
+                            <img width="50" id="P1" onclick="trocar1()" class="img-gods expand" src="./Images/heart-outline.svg">
+                        </button>
+                    </div>
+                    <div class="imagem">
+                        <div><img src="./Images/serrote.svg" alt=""></div>
+                    </div>
+                    <div class="informacoes">
+                        <h2 class="preco-produto">R$38,00</h2>
+                        <p class="nome-produto">Serrote 26 pol. TRAMONTINA</p>
+                        <div><img src="./Images/Stars.svg" alt="" class="stars"></div>
+                    </div>
+                    <div class="comprar">
+                        <form action="">
+                            <button type="submit">
+                                <img src="./Images/carrinho_vector.svg" alt="">
+                                <a href="#">COMPRAR</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="segundo-produto">
+                    <div class="promo">
+                        <div><img src="./Images/promo-natal.svg" alt=""></div>
+                        <button class="favoritos">
+                            <img width="50" id="P2" onclick="trocar2()" class="img-gods expand" src="./Images/heart-outline.svg">
+                        </button>
+                    </div>
+                    <div class="imagem">
+                        <div><img src="./Images/Broca de madeira.svg" alt="" style="
+                            width: 216px;
+                            height: 216px;
+                        "></div>
+                    </div>
+                    <div class="informacoes">
+                        <h2 class="preco-produto">R$79,49</h2>
+                        <p class="nome-produto">Brocas para madeira VONDER - 8 unidades</p>
+                        <div><img src="./Images/Stars.svg" alt="" class="stars"></div>
+                    </div>
+                    <div class="comprar">
+                        <form action="">
+                            <button type="submit">
+                                <img src="./Images/carrinho_vector.svg" alt="">
+                                <a href="#">COMPRAR</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="terceiro-produto">
+                    <div class="promo">
+                        <div><img src="./Images/promo-natal.svg" alt=""></div>
+                        <button class="favoritos">
+                            <img width="50" id="P3" onclick="trocar3()" class="img-gods expand" src="./Images/heart-outline.svg">
+                        </button>
+                    </div>
+                    <div class="imagem">
+                        <div><img src="./Images/Sarrafo de madeira.svg" alt="" style="
+                            width: 216px;
+                            height: 216px;
+                        "></div>
+                    </div>
+                    <div class="informacoes">
+                        <h2 class="preco-produto">R$19,99</h2>
+                        <p class="nome-produto">Sarrafo de madeira Pinus (madeira de reflorestamento)</p>
+                        <div><img src="./Images/Stars.svg" alt="" class="stars"></div>
+                    </div>
+                    <div class="comprar">
+                        <form action="">
+                            <button type="submit">
+                                <img src="./Images/carrinho_vector.svg" alt="">
+                                <a href="#">COMPRAR</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="quarto-produto">
+                    <div class="promo">
+                        <div><img src="./Images/promo-natal.svg" alt=""></div>
+                        <button class="favoritos">
+                            <img width="50" id="P4" onclick="trocar4()" class="img-gods expand" src="./Images/heart-outline.svg">
+                        </button>
+                    </div>
+                    <div class="imagem">
+                        <div><img src="./Images/Joelho de pvc copy.png" alt="" style="
+                            width: 216px;
+                            height: 216px;
+                        "></div>
+                    </div>
+                    <div class="informacoes">
+                        <h3>R$14,99</h3>
+                        <h2 class="preco-produto">R$9,99</h2>
+                        <p class="nome-produto">Joelho de PVC - 100mm. TIGRE</p>
+                        <div><img src="./Images/Stars.svg" alt="" class="stars"></div>
+                    </div>
+                    <div class="comprar">
+                        <form action="">
+                            <button type="submit">
+                                <img src="./Images/carrinho_vector.svg" alt="">
+                                <a href="#">COMPRAR</a>
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div id="serrote-img">
-                <img src="../Images/serrote.svg" alt="">
-            </div>
-            <h2 class="preco-produto">R$38,00</h2>
-            <p class="nome-produto">Serrote 26 pol. TRAMONTINA</p>
-            <img src="../Images/Stars.svg" alt="" class="stars">
-            <div id="comprar">
-                <a href="../pages/compra.html">
-                    <button type="submit" class="botao-comprar">
-                        <img src="../Images/carrinho_vector.svg" alt="" class="carrinho-vector">
-                        <p>COMPRAR</p>
-                    </button>
-                </a>
-            </div>
         </div>
-
-        <!--PRODUTO 2-->
-
-        <div id="produtos">
-            <div id="idpromo">
-                <div class="promo">
-                    <img src="../Images/promo-natal.svg" alt="">
-                </div>
-            </div>
-            <div id="serrote-img">
-                <img src="./Images/Broca de madeira.svg" alt="">
-            </div>
-            <h2 class="preco-produto">R$79,49</h2>
-            <p class="nome-produto">Brocas para madeira VONDER - 8 unidades</p>
-            <img src="../Images/Stars.svg" alt="" class="stars">
-            <div id="comprar">
-                <a href="../pages/compra.html">
-                    <button type="submit" class="botao-comprar">
-                        <img src="../Images/carrinho_vector.svg" alt="" class="carrinho-vector">
-                        <p>COMPRAR</p>
-                    </button>
-                </a>
-            </div>
-        </div>
-
-        <!--PRODUTO 3-->
-
-        <div id="produtos">
-            <div id="idpromo">
-                <div class="promo">
-                    <img src="../Images/promo-natal.svg" alt="">
-                </div>
-            </div>
-            <div id="serrote-img">
-                <img src="./Images/Sarrafo de madeira.svg" alt="">
-            </div>
-            <h2 class="preco-produto">R$19,99</h2>
-            <p class="nome-produto">Sarrafo de madeira Pinus (madeira de reflorestamento)</p>
-            <img src="../Images/Stars.svg" alt="" class="stars">
-            <div id="comprar">
-                <a href="../pages/compra.html">
-                    <button type="submit" class="botao-comprar">
-                        <img src="../Images/carrinho_vector.svg" alt="" class="carrinho-vector">
-                        <p>COMPRAR</p>
-                    </button>
-                </a>
-            </div>
-        </div>
-
-        <!--PRODUTO 4-->
-
-        <div id="produtos">
-            <div id="idpromo">
-                <div class="promo">
-                    <img src="../Images/promo-natal.svg" alt="">
-                </div>
-            </div>
-            <div id="serrote-img">
-                <img src="./Images/Joelho de pvc.png" alt="">
-            </div>
-            <p class="desconto">R$14,99</p>
-            <h2 class="preco-produto">R$9,99</h2>
-            <p class="nome-produto">Joelho de PVC - 100mm. TIGRE</p>
-            <img src="../Images/Stars.svg" alt="" class="stars">
-            <div id="comprar">
-                <a href="../pages/compra.html">
-                    <button type="submit" class="botao-comprar">
-                        <img src="../Images/carrinho_vector.svg" alt="" class="carrinho-vector">
-                        <p>COMPRAR</p>
-                    </button>
-                </a>
-            </div>
-        </div>
-
     </section>
-
-        
 
 </body>
 </html>
