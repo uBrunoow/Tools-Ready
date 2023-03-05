@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="./CSS/segundo_produto.css">
     <link rel="stylesheet" href="./CSS/terceiro_produto.css">
     <link rel="stylesheet" href="./CSS/quarto_produto.css">
+    <link rel="stylesheet" href="./CSS/compra_venda.css">
+    <link rel="stylesheet" href="./CSS/departamentos.css">
+    <link rel="stylesheet" href="./CSS/onsale.css">
+    <link rel="stylesheet" href="./CSS/primeiro_onsale_hover.css">
+    <link rel="stylesheet" href="./CSS/segundo_onsale_hover.css">
+    <link rel="stylesheet" href="./CSS/terceiro_onsale_hover.css">
     <script src="./JS/favoritos.js"></script>
     <title>ToolsReady! |  Maior E-commerce de ferramentas no Brasil</title>
 </head>
@@ -139,7 +145,7 @@
 
     <section class="paravoce">
         <h2 class="titulo-departamentos">PARA MELHORAR SUA CONSTRUÇÃO!</h2>
-    <hr>
+    <hr class="linha-departamentos">
     <div class="container2">
         <div class="departamentos">
 
@@ -193,6 +199,105 @@
             </div>
         </div>
     </div>
+    </section>
+
+    <section class="on-sale">
+        <div class="retangulo-on-sale"></div>
+        <div class="titulo-onsale">
+            <h2>AS MELHORES OFERTAS PARA LEVAR <br> AGORA!</h2>
+        </div>
+        <div class="container3">
+            <div class="sale">
+                <h1 class="z1sale">SALE</h1>
+                <h1 class="z2sale">SALE</h1>
+                <h1 class="z3sale">SALE</h1>
+                <h1 class="z4sale">SALE</h1>
+            </div>
+
+
+            <div class="produtos-onsale">
+                <div class="primeiro-on-sale">
+                    <div class="promo-onsale">
+                        <div><div><p>6% <br> OFF</p></div></div>
+                        <button class="favoritos">
+                            <img width="50" id="P5" onclick="trocar5()" class="img-gods expand" src="./Images/heart-outline.svg">
+                        </button>
+                    </div>
+                    <div class="imagem-onsale">
+                        <div><img src="./Images/serrote.svg" alt=""></div>
+                    </div>
+                    <div class="informacoes-onsale">
+                        <h2 class="preco-produto-onsale">R$38,00</h2>
+                        <p class="nome-produto-onsale">Serrote 26 pol. TRAMONTINA</p>
+                        <div><img src="./Images/Stars.svg" alt="" class="stars-onsale"></div>
+                    </div>
+                    <div class="comprar-onsale">
+                        <form action="">
+                            <button type="submit">
+                                <img src="./Images/carrinho_vector.svg" alt="">
+                                <a href="#">COMPRAR</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="segundo-on-sale">
+                    <div class="promo-onsale">
+                        <div><p>6% <br> OFF</p></div>
+                        <button class="favoritos">
+                            <img width="50" id="P6" onclick="trocar6()" class="img-gods expand" src="./Images/heart-outline.svg">
+                        </button>
+                    </div>
+                    <div class="imagem-onsale">
+                        <div><img src="./Images/Broca de madeira.svg" alt="" style="
+                            width: 216px;
+                            height: 216px;
+                        "></div>
+                    </div>
+                    <div class="informacoes-onsale">
+                        <h2 class="preco-produto-onsale">R$79,49</h2>
+                        <p class="nome-produto-onsale">Brocas para madeira VONDER - 8 unidades</p>
+                        <div><img src="./Images/Stars.svg" alt="" class="stars-onsale"></div>
+                    </div>
+                    <div class="comprar-onsale">
+                        <form action="">
+                            <button type="submit">
+                                <img src="./Images/carrinho_vector.svg" alt="">
+                                <a href="#">COMPRAR</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="terceiro-on-sale">
+                    <div class="promo-onsale">
+                        <div><p>6% <br> OFF</p></div>
+                        <button class="favoritos">
+                            <img width="50" id="P7" onclick="trocar7()" class="img-gods expand" src="./Images/heart-outline.svg">
+                        </button>
+                    </div>
+                    <div class="imagem-onsale">
+                        <div><img src="./Images/Sarrafo de madeira.svg" alt="" style="
+                            width: 216px;
+                            height: 216px;
+                        "></div>
+                    </div>
+                    <div class="informacoes-onsale">
+                        <h2 class="preco-produto-onsale">R$19,99</h2>
+                        <p class="nome-produto-onsale">Sarrafo de madeira Pinus (madeira de reflorestamento)</p>
+                        <div><img src="./Images/Stars.svg" alt="" class="stars-onsale"></div>
+                    </div>
+                    <div class="comprar-onsale">
+                        <form action="">
+                            <button type="submit">
+                                <img src="./Images/carrinho_vector.svg" alt="">
+                                <a href="#">COMPRAR</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 </body>

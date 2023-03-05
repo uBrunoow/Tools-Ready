@@ -52,3 +52,39 @@ function trocar4(){
     currentImgIndex++; // incrementa a nossa referencia
 
 }
+
+// FUNCTION PRODUTO 5
+function trocar5(){
+
+  if(currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+  {
+    currentImgIndex=0;
+  }
+  document.getElementById("P5").src=ImgSrcArray[currentImgIndex]; //altera a img do elemento "agni" de acordo com o indice
+    currentImgIndex++; // incrementa a nossa referencia
+
+}
+
+// FUNCTION PRODUTO 6
+function trocar6(){
+
+  if(currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+  {
+    currentImgIndex=0;
+  }
+  document.getElementById("P6").src=ImgSrcArray[currentImgIndex]; //altera a img do elemento "agni" de acordo com o indice
+    currentImgIndex++; // incrementa a nossa referencia
+
+}
+
+// FUNCTION PRODUTO 7
+function trocar7(){
+
+  if(currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+  {
+    currentImgIndex=0;
+  }
+  document.getElementById("P7").src=ImgSrcArray[currentImgIndex]; //altera a img do elemento "agni" de acordo com o indice
+    currentImgIndex++; // incrementa a nossa referencia
+
+}

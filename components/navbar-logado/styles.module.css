@@ -45,7 +45,7 @@ label span {
   width: 100%;
   border-radius: 30px;
   background: #fff;
-  transition: 0.25% ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 label span:nth-child(1) {
