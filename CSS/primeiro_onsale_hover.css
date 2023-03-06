@@ -83,7 +83,7 @@
     margin-top: 5px;
 }
 .primeiro-on-sale:hover button {
-       display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     background: #e06c00;
@@ -91,6 +91,7 @@
     border-radius: 8px 0px 8px 8px;
     border: none;
     box-shadow: 00px -5px 20px rgba(0, 0, 0, 0.171);
+    cursor: pointer;
 }
 .primeiro-on-sale:hover button img {
         transform: translateX(-30px);
