@@ -112,6 +112,10 @@
     align-items: center;
 }
 
+.promo-onsale .frete-gratis p {
+    font-size: 15px;
+}
+
 .promo-onsale {
     display: flex;
     justify-content: right;
