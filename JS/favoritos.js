@@ -88,3 +88,75 @@ function trocar7(){
     currentImgIndex++; // incrementa a nossa referencia
 
 }
+
+// FUNCTION PRODUTO 8
+function trocar8(){
+
+  if(currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+  {
+    currentImgIndex=0;
+  }
+  document.getElementById("P8").src=ImgSrcArray[currentImgIndex]; //altera a img do elemento "agni" de acordo com o indice
+    currentImgIndex++; // incrementa a nossa referencia
+
+}
+
+// FUNCTION PRODUTO 9 
+function trocar9(){
+
+  if(currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+  {
+    currentImgIndex=0;
+  }
+  document.getElementById("P9").src=ImgSrcArray[currentImgIndex]; //altera a img do elemento "agni" de acordo com o indice
+    currentImgIndex++; // incrementa a nossa referencia
+
+}
+
+// FUNCTION PRODUTO 10
+function trocar10(){
+
+  if(currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+  {
+    currentImgIndex=0;
+  }
+  document.getElementById("P10").src=ImgSrcArray[currentImgIndex]; //altera a img do elemento "agni" de acordo com o indice
+    currentImgIndex++; // incrementa a nossa referencia
+
+}
+
+// FUNCTION PRODUTO 11
+function trocar11(){
+
+  if(currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+  {
+    currentImgIndex=0;
+  }
+  document.getElementById("P11").src=ImgSrcArray[currentImgIndex]; //altera a img do elemento "agni" de acordo com o indice
+    currentImgIndex++; // incrementa a nossa referencia
+
+}
+
+// FUNCTION PRODUTO 12
+function trocar12(){
+
+  if(currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+  {
+    currentImgIndex=0;
+  }
+  document.getElementById("P12").src=ImgSrcArray[currentImgIndex]; //altera a img do elemento "agni" de acordo com o indice
+    currentImgIndex++; // incrementa a nossa referencia
+
+}
+
+// FUNCTION PRODUTO 13
+function trocar13(){
+
+  if(currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+  {
+    currentImgIndex=0;
+  }
+  document.getElementById("P13").src=ImgSrcArray[currentImgIndex]; //altera a img do elemento "agni" de acordo com o indice
+    currentImgIndex++; // incrementa a nossa referencia
+
+}
