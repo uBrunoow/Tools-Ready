@@ -39,7 +39,7 @@
     height: 50px;
     position: absolute;
     top: 20px;
-    left: 350px;
+    left: 360px;
 }
 
 .primeiro-destaque:hover .imagem-destaque{
@@ -84,7 +84,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #FF7A00;
+    background: rgb(224, 108, 0);
     width: 423px;
     border-radius: 8px 8px 8px 8px;
     border: none;
