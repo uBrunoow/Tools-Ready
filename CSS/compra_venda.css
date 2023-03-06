@@ -148,6 +148,19 @@
     margin-top: 50px;
 }
 
+.comprar button:active {
+    box-shadow: inset 0px 4px 0px #61310c;
+}
+
+.comprar button:active img {
+    width: 26px ;
+    height: 26px;
+}
+
+.comprar button:active a {
+    font-size: 18px;
+}
+
 .comprar button {
     display: flex;
     justify-content: center;

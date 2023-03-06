@@ -152,12 +152,25 @@
     background: #FF7A00;
     border-radius: 5px 0px 0px 0px;
     border: 0px;
-    transition: .7s;
+    transition: .5s;
     margin-top: 10px;
 }
 
+.comprar-destaque button:active {
+    box-shadow: inset 0px 4px 0px #61310c;
+}
+
+.comprar-destaque button:active img {
+    width: 26px ;
+    height: 26px;
+}
+
+.comprar-destaque button:active a {
+    font-size: 18px;
+}
+
 .comprar-destaque img {
-    transition: .7s;
+    transition: .5s;
 }
 
 .comprar-destaque a {
