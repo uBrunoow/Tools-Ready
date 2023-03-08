@@ -23,6 +23,7 @@
     font-weight: 400;
     font-size: 15px;
     text-align: center;
+    margin-left: 5px;
 }
 
 .input-box{
@@ -83,6 +84,7 @@
     font-weight: bold;
     font-size: 20px;
     margin: 30px 0px 20px 0px;
+    cursor: default;
 }
 
 li { 
@@ -100,7 +102,6 @@ a {
 
 a:hover {
     color: #ffc997;
-    text-decoration: underline;
 }
 
 .box {

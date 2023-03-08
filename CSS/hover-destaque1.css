@@ -90,6 +90,7 @@
     border: none;
     box-shadow: 00px -5px 20px rgba(0, 0, 0, 0.171);
     margin-top: 10px;
+    cursor: pointer;
 }
 .primeiro-destaque:hover button img {
         transform: translateX(-30px);
