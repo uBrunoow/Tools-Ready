@@ -5,7 +5,7 @@ class Header extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-  <header>
+    <header>
         <nav>
           <div class="container">
           <input type="checkbox" id="checkbox-menu">
@@ -17,13 +17,14 @@ class Header extends HTMLElement {
           </div>
           <div id="divBusca" >
               <input type="text" id="txtBusca" placeholder="Pesquisar...">
-              <button class="imgCarrinho"><img src="/Images/Carrinho.svg" alt="" id="carrinho"></button>
-              <button class="imgFavoritos"><img src="/Images/Favoritos.svg"></button>
-              <button class="imgConta"><img src="/Images/Conta.svg" id="imgTamanho"></button>
-              <button class="imgPesquisa"><img src="/Images/Pesquisar.svg" id="pesquisa"></button>
+              <button class="imgPesquisa"> <a href=""> <ion-icon name="search-outline"></ion-icon></a></button>
+              <button class="imgConta"> <a href=""><ion-icon name="person-outline"></ion-icon></a> </button>
+              <button class="imgFavoritos"> <a href=""><ion-icon name="heart-outline"></ion-icon></a></button>
+              <button class="imgCarrinho"> <a href=""><ion-icon name="cart-outline"></ion-icon></a> </button>
           </div>  
         </nav>
       </header>
+
     `;
   }
 }
