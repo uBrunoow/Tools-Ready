@@ -4,14 +4,168 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="/components/navbar.js"  type="text/javascript" defer></script>
-  <script src="/components/footer.js"  type="text/javascript" defer></script>
+  <script src="../components/navbar-login.js"  type="text/javascript" defer></script>
+  <script src="../components/footer.js"  type="text/javascript" defer></script>
+  <link rel="stylesheet" href="../CSS/pessoajuridica.css">
   <title>Cadastro | Empresas</title>
 </head>
 <body>
     <navbar-1></navbar-1>
-    
-    
-    <footer-template></footer-template>
+<!--TITULO -->
+<div>
+  <div class="titulo">
+  <h1>CRIAR CONTA<span class="subtitulo">PESSOA FÍSICA</span></h1>
+  <hr>
+</div>
+
+<div class="fisica">
+  <img src="../Images/imagem-pessoa-fisica.svg" alt="">
+</div>
+<div class="container">
+<!--IMAGEM PESSOA FISICA-->
+
+<!--INPUTS-->
+<div class="wrapper">
+  <div class="form-box login">
+      <form action="login.php">
+
+
+        <div class="lines">
+          <div class="nome-completo">
+            <!--DIV DO INPUT NOME COMPLETO-->
+              <div class="input-box">
+                <span class="icon"></span>
+                <input type="text" required>
+                <label>Nome Fantasia</label>
+              </div>
+          </div>
+          <div class="cpf">
+            <!--DIV DO INPUT CPF-->
+              <div class="input-box">
+                <span class="icon"></span>
+                <input type="text" required>
+                <label>CNPJ</label>
+              </div>
+          </div>
+        </div>
+
+        <div class="lines">
+        <div class="data-de-nasc">
+          <!--DIV DO INPUT DATA NASC-->
+            <div class="input-box">
+              <span class="icon"></span>
+              <input type="text" required>
+              <label>Data de Abertura da Empresa</label>
+            </div>
+        </div>
+        <div class="telefone">
+          <!--DIV DO INPUT TELEFONE-->
+            <div class="input-box">
+              <span class="icon"></span>
+              <input type="text" required>
+              <label>Razão Social</label>
+            </div>
+        </div>
+        </div>
+
+        <div class="lines">
+          <div class="info-tributaria">
+            <!--DIV DO INPUT DATA NASC-->
+              <div class="input-box">
+                <span class="icon"></span>
+                <input type="text" required>
+                <label id="info-tribut">Info. Tributárias</label>
+                <select name="" id="info-tribut">
+                  <option value="">R$1.000,00</option>
+                  <option value="">R$2.000,00</option>
+                  <option value="">R$3.000,00</option>
+                  <option value="">R$4.000,00</option>
+                  <option value="">R$5.000,00</option>
+                  <option value="">R$6.000,00</option>
+                  <option value="">R$7.000,00</option>
+                  <option value="">R$8.000,00</option>
+                  <option value="">R$9.000,00</option>
+                  <option value="">R$10.000,00</option>
+                </select>
+              </div>
+          </div>
+          <div class="inscricao-estadual">
+            <!--DIV DO INPUT TELEFONE-->
+              <div class="input-box">
+                <span class="icon"></span>
+                <input type="text" required>
+                <label>Inscrição Estadual</label>
+              </div>
+          </div>
+          </div>
+
+          <div class="lines">
+            <div class="info-tributaria">
+              <!--DIV DO INPUT DATA NASC-->
+                <div class="input-box">
+                  <span class="icon"></span>
+                  <input type="text" required>
+                  <label id="info-tribut">Telefone para contato</label>
+                </div>
+            </div>
+            <div class="inscricao-estadual">
+              <!--DIV DO INPUT TELEFONE-->
+                <div class="input-box">
+                  <span class="icon"></span>
+                  <input type="text" required>
+                  <label>Telefone Celular</label>
+                </div>
+            </div>
+            </div>
+
+        <div class="lines">
+        <div class="email">
+          <!--DIV DO INPUT EMAIL-->
+            <div class="input-box">
+                <span class="icon"></span>
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+        </div>
+        </div>
+        <div class="lines">
+          <div class="password">
+            <!--DIV DO INPUT SENHA-->
+            <div class="input-box">
+                <span id="icon" onclick="showHide()"> <ion-icon name="eye"></ion-icon></span>
+                <input type="password" required id="password">
+                <label>Senha</label>
+            </div>
+          </div>
+
+          <div class="confirm-password">
+            <!--DIV DO INPUT CONFIRMAR SENHA-->
+              <div class="input-box">
+                <span class="icon"> <ion-icon name="lock-closed"></ion-icon> </span>
+                <input type="password" required>
+                <label>Confirmar Senha</label>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="continuar">
+          <button type="submit" class="btn">
+              <a href="#">CONTINUAR</a>
+          </button>
+            <span class="entrar">
+              Já possui conta?
+              <a href="./login.html" class="login">ENTRAR</a>
+            </span>
+        </div>
+
+        
+      </form>
+  </div>
+</div>
+</div>
+<footer-template></footer-template>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

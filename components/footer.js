@@ -15,11 +15,13 @@ class Footer extends HTMLElement {
         }  
 
         footer {
-          display:flex;
+          display: flex;
           background-color: #ff7a00;
           height: 80px;
           width: 100%;
-          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+      }
         }
 
         ul{
@@ -45,8 +47,18 @@ class Footer extends HTMLElement {
           justify-content: space-evenly;
           padding: 25px;
           list-style: none;
+          gap: 50px;
         }
 
+
+        .marcaregistrada {
+          padding: 10px;
+          width: 100vw;
+          background-color: #A45214;
+          text-align: center;
+          color: #fff;
+          font-size: 13px;
+      }   
       </style>
       <footer>
        <ul class="lista">
@@ -56,6 +68,10 @@ class Footer extends HTMLElement {
         <li><img src="/Images/Ellipse.svg"></img>
         <li><a href="/">Exerça seus direitos de privacidade</a></li>
        </ul>
+       <div class="marcaregistrada">
+            <p>ToolsReady! É uma marca registrada de TOOLS READY  | CNPJ: 11.234.567/0001-90 | Todos os direitos reservados <br>
+            <span>ESCOLA S SESI/SENAI</span></p>
+        </div>
       </footer>
     `;
   }
