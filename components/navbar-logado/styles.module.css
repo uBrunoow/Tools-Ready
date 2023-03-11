@@ -85,7 +85,7 @@ label span:nth-child(3) {
       }
     
       #txtBusca {
-    
+        outline: none;
         background-color: transparent;
         padding-left: 5px;
         font-style: italic;
@@ -95,32 +95,33 @@ label span:nth-child(3) {
         width: 680px;
         margin-left: 25px;
       }
-    
-      button {
-        border: none;
-        outline: none;
-        background-color: #888;
-        border-radius: 62px;
-        transition: all .2s ease-in-out;
-      }
-  
-      button:active {
-        background: #ccc;
-      }
-  
-      button a {
-        color: #000;
-      }
-      .imgCarrinho {
+
+      .imgPesquisa {
         display: flex;
         justify-content: left;
         align-items: center;
-        width: 65px;
-        background: #727272;
+        width: 100px;
+        background: #B0B0B0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border: none;
+        outline: none;
+        border-radius: 62px;
+        transition: all .2s ease-in-out;
+      }
+
+      .imgConta {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 100px;
+        background: #A0A0A0;
         margin-left: -50px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  
-      }
+        border: none;
+        outline: none;
+        border-radius: 62px;
+        transition: all .2s ease-in-out;
+        }
   
       .imgFavoritos {
         display: flex;
@@ -130,31 +131,101 @@ label span:nth-child(3) {
         background: #8C8C8C;
         margin-left: -50px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border: none;
+        outline: none;
+        border-radius: 62px;
+        transition: all .2s ease-in-out;
       }
   
-  
-      .imgConta {
+      .imgCarrinho {
         display: flex;
         justify-content: left;
         align-items: center;
-        width: 100px;
-        background: #A0A0A0;
+        width: 65px;
+        background: #727272;
         margin-left: -50px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-    
-      .imgPesquisa {
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        width: 100px;
-        background: #B0B0B0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border: none;
+        outline: none;
+        border-radius: 62px;
+        transition: all .2s ease-in-out;
       }
   
-      ion-icon {
+      .imgPesquisa ion-icon {
         margin-left: 20px;
+        margin-top: 7px;
         width: 20px;
         height: 32px;
       }
+
+      .imgConta ion-icon {
+        margin-left: 20px;
+        margin-top: 7px;
+        width: 20px;
+        height: 32px;
+      }
+
+      .imgFavoritos ion-icon {
+        margin-left: 20px;
+        margin-top: 7px;
+        width: 20px;
+        height: 32px;
+      }
+
+      .imgCarrinho ion-icon {
+        margin-left: 20px;
+        margin-top: 7px;
+        width: 20px;
+        height: 32px;
+      }
+
+      .imgPesquisa:active {
+        background: #ccc;
+      }
+
+      .imgConta:active {
+        background: #ccc;
+      }
+
+      .imgFavoritos:active {
+        background: #ccc;
+      }
+
+      .imgCarrinho:active {
+        background: #ccc;
+      }
+
+      .imgPesquisa a {
+        color: #000;      
+      }
+
+      .imgConta a {
+        color: #000;      
+      }
+
+      .imgFavoritos a {
+        color: #000;      
+      }
+
+      .imgCarrinho a {
+        color: #000;      
+      }
+
+      .imgPesquisa a:hover {
+        color: #666;      
+      }
+
+      .imgConta a:hover {
+        color: #666;      
+      }
+
+      .imgFavoritos a:hover {
+        color: #666;      
+      }
+
+      .imgCarrinho a:hover {
+        color: #666;      
+      }
+
+
 
