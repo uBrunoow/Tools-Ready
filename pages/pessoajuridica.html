@@ -7,12 +7,14 @@
   <script src="../components/navbar-login.js"  type="text/javascript" defer></script>
   <script src="../components/footer.js"  type="text/javascript" defer></script>
   <link rel="stylesheet" href="../CSS/pessoajuridica.css">
+  <script src="../JS/pessoajuridica.js" type="text/javascript" defer></script>
+  <script src="../JS/mostrar-ocultar-senha.js" type="text/javascript" defer></script>
   <title>Cadastro | Empresas</title>
 </head>
 <body>
     <navbar-1></navbar-1>
 <!--TITULO -->
-<div>
+<div class="tudo">
   <div class="titulo">
   <h1>CRIAR CONTA<span class="subtitulo">PESSOA FÍSICA</span></h1>
   <hr>
@@ -69,24 +71,22 @@
         </div>
 
         <div class="lines">
-          <div class="info-tributaria">
+          <div class="informacoes-tributaria">
             <!--DIV DO INPUT DATA NASC-->
               <div class="input-box">
-                <span class="icon"></span>
-                <input type="text" required>
-                <label id="info-tribut">Info. Tributárias</label>
-                <select name="" id="info-tribut">
-                  <option value="">R$1.000,00</option>
-                  <option value="">R$2.000,00</option>
-                  <option value="">R$3.000,00</option>
-                  <option value="">R$4.000,00</option>
-                  <option value="">R$5.000,00</option>
-                  <option value="">R$6.000,00</option>
-                  <option value="">R$7.000,00</option>
-                  <option value="">R$8.000,00</option>
-                  <option value="">R$9.000,00</option>
-                  <option value="">R$10.000,00</option>
-                </select>
+                <label>Info. Tributárias </label>
+                <input type="checkbox" name="" id="checkbox" onclick="clickInfo()">
+                <label for="checkbox" class="checkbox-abrir">
+                  <ion-icon name="chevron-down-outline" id="flecha"></ion-icon>
+                </label>
+                  <div id="menu">
+                    <div class="info-tributaria">
+                      <span class="texto-tributaria" onclick="clickTrib()">Contribuinte ICMS</span>
+                      <span class="texto-tributaria" onclick="clickTrib()">Não Contribuinte ICMS</span>
+                      <span class="texto-tributaria" onclick="clickTrib()">Isento de inscricao estadual</span>
+                    </div>
+                  </div>
+
               </div>
           </div>
           <div class="inscricao-estadual">
@@ -100,7 +100,7 @@
           </div>
 
           <div class="lines">
-            <div class="info-tributaria">
+            <div class="informacoes-tributaria">
               <!--DIV DO INPUT DATA NASC-->
                 <div class="input-box">
                   <span class="icon"></span>
@@ -118,7 +118,7 @@
             </div>
             </div>
 
-        <div class="lines">
+        <div class="one-line">
         <div class="email">
           <!--DIV DO INPUT EMAIL-->
             <div class="input-box">
@@ -132,7 +132,7 @@
           <div class="password">
             <!--DIV DO INPUT SENHA-->
             <div class="input-box">
-                <span id="icon" onclick="showHide()"> <ion-icon name="eye"></ion-icon></span>
+                <span id="icon"> <img src="../Images/eye-off.svg" alt="" id="eyes" onclick="showHide()"></span>
                 <input type="password" required id="password">
                 <label>Senha</label>
             </div>
@@ -158,8 +158,6 @@
               <a href="./login.html" class="login">ENTRAR</a>
             </span>
         </div>
-
-        
       </form>
   </div>
 </div>

@@ -47,7 +47,8 @@
     justify-content: center;
 }
 .lines{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .nome-completo {
@@ -60,7 +61,7 @@
   margin-right: 16px;
 }
 
-.info-tributaria {
+.informacoes-tributaria {
     margin-right: 16px;
 }
 .telefone {
@@ -82,6 +83,13 @@
   font-size: 1.2em;
   line-height: 57px;
 }
+ #icon img {
+  margin-top: 12px;
+  font-size: 1.2em;
+  line-height: 57px;
+  width: 25px;
+  height: 25px;
+}
 
 .input-box #icon {
   position: absolute;
@@ -97,6 +105,7 @@
 }
 
 .input-box {
+  display: flex;
   position: relative;
   width: 100%;
   height: 50px;
@@ -104,17 +113,76 @@
   margin: 30px 130.8px;
 }
 
-select {
-    position: absolute;
-    height: 50px;
-    border: none;
-    outline: none;
-    margin-left: 240px;
-    margin-top: -50px;
+#checkbox {
+  cursor: pointer;
+  opacity: 0;
 }
 
-option {
-    margin-left: -100px;
+.checkbox-abrir {
+  margin-left: 290px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+
+.arrow{
+  display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 0.8125rem;
+    right: 0.9375rem;
+    height: 1.5625rem;
+    width: 1.5625rem;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    pointer-events: none;
+    cursor: pointer;
+}
+
+#flecha {
+  width: 25px;
+  height: 25px;
+}
+
+#menu {
+  display: none;
+}
+
+.info-tributaria {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 800ms ease 0s;
+    border: 1px solid rgb(222, 224, 228);
+    max-height: 20.8125rem;
+    overflow-y: auto;
+    margin-top: 52px;
+    margin-left: -345px;
+}
+
+.texto-tributaria {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 3rem;
+  font-size: 15px;
+  line-height: 1rem;
+  font-weight: 400;
+  color: rgb(66, 70, 77);
+  background: rgb(255, 255, 255);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.texto-tributaria:hover {
+  background: #f1f1f1;
 }
 
 .input-box label {
