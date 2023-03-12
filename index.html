@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="./CSS/hover-destaque3.css">
     <link rel="stylesheet" href="./CSS/destaques.css">
     <link rel="stylesheet" href="./CSS/estilo-rodape.css">
+    <link rel="stylesheet" href="./CSS/countdown.css">
+    <script src="./JS/countdown.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9.1.0/swiper-bundle.min.js"></script>
@@ -36,7 +38,30 @@
 
     <section>
         <div class="anuncio-black-friday"></div>
-        <div class="linha-natal-ready">Termina em: <span class="time">24D 24:24:24</span></div>
+        <div class="linha-natal-ready"><p class="timing">Termina em:</p> <img src="./Images/time.svg" alt="" class="times">
+            <div class="countdown-container">
+        
+                <div class="countdown-el days-c">
+                    <p class="text" id="days">00</p>
+                    <span>D</span>
+                </div>
+        
+                <div class="countdown-el hours-c">
+                    <p class="text" id="hours">00</p>
+                    <span>:</span>
+                </div>
+        
+                <div class="countdown-el mins-c">
+                    <p class="text" id="mins">00</p>
+                    <span>:</span>
+                </div>
+        
+                <div class="countdown-el secs-c">
+                    <p class="text" id="secs">00</p>
+                    <span></span>
+                </div>
+            </div>
+        </div>
         <div class="natal-ready"> 
             <p>Natal Ready!</p>
         </div>

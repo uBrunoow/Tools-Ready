@@ -14,7 +14,7 @@
 </head>
 <body>
     <navbar-1></navbar-1>
-
+    
     <div class="box">
         <div class="fim-cadastro">
             <div class="titulo">
@@ -45,10 +45,22 @@
             </div>
             <div class="checkmarks">
                 <div class="emails-fim-cadastro">
-                    <input type="checkbox" id="idemails">
+                    <input type="checkbox" id="idemails" onclick="clickCheck()">
                     <label for="idemails" id="idsemails">Desejo receber novidades e ofertas da ToolsReady via e-mail
-                        <span class="switch-button" id="idsemails"><img src="../Images/Vector (1).svg" alt="" id="p510" onclick="clickCheck()"></span>
-                        
+                        <span class="switch-button" id="idsemails" onclick="clickCheck2()">
+                            <img src="../Images/Vector (2).svg" alt="" id="imagem">
+                        </span>
+                    </label>
+                </div>
+                <div class="politicas-fim-cadastro">
+                    <input type="checkbox" id="idpoliticas" onclick="clickCheck2()">
+                    <label for="idpoliticas" id="idspoliticas">Li e estou de acordo com as 
+                        <span class="politicas-da-empresa">
+                            <a href="">políticas da empresa e políticas de privacidade.*</a>
+                        </span>
+                        <span class="switch-button" id="idspoliticas">
+                            <img src="../Images/Vector (2).svg" alt="" id="imagem2">
+                        </span>
                     </label>
                 </div>
             </div>
@@ -63,6 +75,7 @@
         </div>
     </div>
     <footer-template></footer-template>
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
