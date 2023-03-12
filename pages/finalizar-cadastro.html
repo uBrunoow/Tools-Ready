@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/finalizar-cadastro.css">
+    <script src="../components/footer.js" text="javascript" defer></script>
+    <script src="../components/navbar-login.js" text="javascript" defer></script>
+    <script src="../JS/pessoajuridica.js"></script>
+    <script src="../JS/finalizar-cadastro.js"></script>
+
+    <title>Finaliar seu Cadastro</title>
+</head>
+<body>
+    <navbar-1></navbar-1>
+
+    <div class="box">
+        <div class="fim-cadastro">
+            <div class="titulo">
+                <h1>FINALIZAR CADASTRO</h1>
+            </div>
+            <!--DIV DO INPUT FINALIZAR CADASTRO-->
+            <div class="inputs-box" >
+                <label>Onde você conheceu a ToolReady!?
+                <input type="checkbox" name="" id="checkbox" onclick="clickInfo()"> 
+                <label for="checkbox" class="checkbox-abrir">
+                    <ion-icon name="chevron-down-outline" id="flecha"></ion-icon>
+                  </label>
+            </label>
+
+                <div id="menu">
+                    <div class="finalizar-cadastro">
+                      <span class="texto-fim" onclick="clickTrib()">Google</span>
+                      <span class="texto-fim" onclick="clickTrib()">Indicação de amigo</span>
+                      <span class="texto-fim" onclick="clickTrib()">Instagram</span>
+                      <span class="texto-fim" onclick="clickTrib()">Twitter</span>
+                      <span class="texto-fim" onclick="clickTrib()">Facebook</span>
+                      <span class="texto-fim" onclick="clickTrib()">YouTube</span>
+                      <span class="texto-fim" onclick="clickTrib()">Newsletter</span>
+                      <span class="texto-fim" onclick="clickTrib()">Zoom</span>
+                      <span class="texto-fim" onclick="clickTrib()">Outro...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="checkmarks">
+                <div class="emails-fim-cadastro">
+                    <input type="checkbox" id="idemails">
+                    <label for="idemails" id="idsemails">Desejo receber novidades e ofertas da ToolsReady via e-mail
+                        <span class="switch-button" id="idsemails"><img src="../Images/Vector (1).svg" alt="" id="p510" onclick="clickCheck()"></span>
+                        
+                    </label>
+                </div>
+            </div>
+        </div>
+        <button class="buttun" 
+        style="background-color: #FF7A00;
+        ">
+          <a href="/index.html"> CONTINUAR </a>
+          </button>
+        <div class="imagem-fim-cadastro">
+            <img src="../Images/imagem-fim-cadastro.svg" alt="">
+        </div>
+    </div>
+    <footer-template></footer-template>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
