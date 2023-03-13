@@ -30,7 +30,11 @@
   }
   
   .checkbox-abrir {
+<<<<<<< HEAD
     margin-left: 350px;
+=======
+    margin-left: 211px; 
+>>>>>>> ebd9e528d8a00ddd5ed5747f85d69332d645b22a
     margin-top: 30px;
     cursor: pointer;
   }
@@ -38,6 +42,7 @@
 .inputs-box {
     margin: 0px 0px 0px 100px;
     display: flex;
+    justify-content: center;    
     width: 75%;
     height: 40px;
     border-bottom: 2px solid #FF7A00;
