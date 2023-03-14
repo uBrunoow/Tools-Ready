@@ -1,4 +1,4 @@
-.box {
+.box-1 {
     display: grid;
     grid-template-columns: 6fr 2fr 6fr;
     grid-template-rows: 0fr 34fr 10fr;
@@ -30,11 +30,7 @@
   }
   
   .checkbox-abrir {
-<<<<<<< HEAD
-    margin-left: 350px;
-=======
     margin-left: 211px; 
->>>>>>> ebd9e528d8a00ddd5ed5747f85d69332d645b22a
     margin-top: 30px;
     cursor: pointer;
   }
@@ -116,7 +112,7 @@ e 10px de altura para a barra horizontal */
     grid-column: 2/3;
     grid-row: 3/3;
     display: flex;
-    margin: 40px 0 70px 0;
+    margin: 73px 0 70px 0;    
     width: 324px;
     height: 62px;
     border-radius: 10px;
@@ -140,8 +136,9 @@ e 10px de altura para a barra horizontal */
 .imagem-fim-cadastro {
     grid-column: 3/3;
     grid-row: 2/3;
-    margin-top: 100px;
-    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagem-fim-cadastro img {

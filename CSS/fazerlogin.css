@@ -1,0 +1,13 @@
+.container-box {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 5fr;
+    margin-bottom: 402px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imagem-login img {
+    width: 1208px;
+    height: 500px;
+}

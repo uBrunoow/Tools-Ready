@@ -216,7 +216,12 @@
 }
 
 .continuar {
-  transform: translateX(100px);
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 20px;
 }
 
 .continuar  span a {
@@ -227,7 +232,6 @@
 }
 
 .entrar {
-  margin-left: 60px;
   transition: 1s;
 }
 
