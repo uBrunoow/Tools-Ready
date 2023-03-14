@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="/components/navbar-login.js"  type="text/javascript" defer></script>
   <script src="/components/footer.js"  type="text/javascript" defer></script>
+  <script src="/JS/mostrar-ocultar-senha.js"></script>
   <link rel="stylesheet" href="../CSS/fazerlogin.css">
 
   <title>Login</title>
@@ -14,15 +15,33 @@
   <navbar-1></navbar-1>
     <div class="container-box">
       <div class="informacoes">
-        <h1>FAZER LOGIN</h1>
-        <label for="">
-          <input type="text" name="" id="">
-        </label>
-        <label for="">
-          <input type="password" name="" id="">
-        </label>
-        <button>
-          <a href="">ENTRAR</a>
+        <div class="titulo-1">
+          <h1>FAZER LOGIN</h1>
+        </div>
+        <div class="lines">
+          <div class="nome-completo">
+            <!--DIV DO INPUT NOME COMPLETO-->
+              <div class="input-box">
+                <span class="icon"></span>
+                <input type="text" required>
+                <label>Nome Completo</label>
+              </div>
+          </div>
+        </div>
+        
+        <div class="lines">
+          <div class="password">
+            <!--DIV DO INPUT SENHA-->
+            <div class="input-box">
+              <span id="icon"> <img src="../Images/eye-off.svg" alt="" id="mostrar" onclick="showHide3()"></span>
+                <input type="password" required id="password">
+                <label>Senha</label>
+            </div>
+          </div>
+        </div>
+
+        <button class="entrar-login">
+          <a href="/index.html"> <img src="../Images/exit-outline.svg" alt=""> ENTRAR</a>
         </button>
         <div class="forgot-password">
           <a href="">Esqueceu a senha?</a>
@@ -31,10 +50,14 @@
         <div class="outros-logins">
           <span>Entrar com as redes sociais:</span>
         </div>
+        <div class="cadastrar-se">
+          <p>Não tem conta? <a href="/pages/cadastre-se.html">Cadastre-se</a></p>
+        </div>
       </div>
       <div class="imagem-login">
         <img src="../Images/imagem-login.svg" alt="">
       </div>
+
     </div>
   <footer-template></footer-template>
 </body>

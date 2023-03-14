@@ -35,20 +35,20 @@ class Footer extends HTMLElement {
           cursor: default;
       }
       
-      li { 
+      .rodape li { 
           cursor: pointer;
           font-size: 16px;
           margin-top: 8px;
       }
       
-      a {
+      .rodape a {
           color: #fff;
           cursor: pointer;
           font-size: 18px;
           text-decoration: none;
       }
       
-      a:hover {
+      .rodape a:hover {
           color: #ffc997;
       }
       
