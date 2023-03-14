@@ -75,7 +75,7 @@ class Header extends HTMLElement {
          <a href="/pages/login.html"> Entre </a>
          com a sua conta <br/>
           Novo na ToolsReady?
-           <a href="/pages/login e cadastro/cadastre-se.html"> Cadastre-se </a>
+           <a href="/pages/cadastre-se.html"> Cadastre-se </a>
            </span>
          </div>
         </nav>

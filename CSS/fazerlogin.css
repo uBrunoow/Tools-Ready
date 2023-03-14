@@ -16,7 +16,7 @@
     color: #FF7A00;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 39px;
     width: 700px;
     height: 75px;
@@ -55,7 +55,7 @@
     top: 50%;
     left: 5px;
     transform: translateY(-50%);
-    font-size: 20px;
+    font-size: 21px;
     color: black;    
     font-weight: 500;
     pointer-events: none;
@@ -73,7 +73,7 @@
     background: transparent;
     border: none;
     outline: none;
-    font-size: .9em;
+    font-size: 19px;
     color: #3a3a3a;
     font-weight: 600;
     padding: 0 35px 0 5px;
